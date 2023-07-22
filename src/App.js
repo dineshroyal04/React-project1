@@ -41,11 +41,9 @@ function App() {
         </li>
       </ul> */}
       <ul id="concepts">
-        <li className="concept">
           <Component val={concepts[0]} />
-        </li>
-        <li className="concept"><Component val={concepts[1]} /></li>
-        <li className="concept"><Component val={concepts[2]} /></li>
+        <Component val={concepts[1]} />
+        <Component val={concepts[2]} />
       </ul>
     </div>
   );
